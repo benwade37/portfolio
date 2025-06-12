@@ -24,6 +24,11 @@ h2 {
     background-color: white;
 }
 
+#about p {
+    font-size: 2.33rem; /* Adjust the size as needed */
+    line-height: 2.2; /* Optional: Improves readability */
+}
+
 #portfolio {
     background-color:  #dbdcde;
 }
