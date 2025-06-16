@@ -7,7 +7,27 @@
     <!-- Bootstrap CSS Link-->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/portfolio-images/css/style.css">
-    </head>
+    <style>
+        .card {
+            height: 400px; /* Set a fixed height for all cards */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Ensures content is spaced evenly */
+        }
+
+        .card-img-top {
+            height: 200px; /* Set a fixed height for the image */
+            object-fit: cover; /* Ensures the image scales properly within the fixed height */
+        }
+
+        .card-body {
+            flex-grow: 1; /* Ensures the body takes up remaining space */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Space out the content */
+        }
+    </style>
+</head>
 <body>
     <nav class="navbar navbar-expand-sm bg-body-tertiary">
         <div class="container">
@@ -42,10 +62,11 @@
           <!-- mb-5 gives extra margin spacing under subheading -->
           <h2 class="display-6 mb-5">Junior Software Developer</h2>
           <p>
-              <i>Hello! I'm Ben, a junior Software Developer with experience in the Advertising industry</i>
+              Hello! I'm Ben, a <i>junior Software Developer with experience in the Advertising industry</i>
               dedicated to building engaging, user-friendly websites and applications.
               <strong>I believe my experience in advertising will be a useful background for coding.</strong>
               Eager to collaborate and grow, I'm on the lookout for opportunities to innovate and excel.
+              I enjoy coding and creating solutions that make a difference.
           </p>
           <!-- mb-5 gives extra margin spacing under lead text -->
           <p class="lead mb-5">Junior Developer with advertising creative experience</p>
@@ -71,25 +92,28 @@
             <!-- Image column -->
             <div class="col-12 col-md-3 mb-4 d-flex justify-content-center">
                 <!-- img-fluid class makes the image responsive to its container -->
-                <img src="assets/images/IMG_2395.jpeg" class="img-fluid" alt="Ben Wade" style="max-width: 100%; height: auto;">
+                <img src="assets/images/IMG_2395.jpeg" class="img-fluid" alt="Ben Wade" style="max-width: 100%; height: auto; border-radius: 50%;">
             </div>
             <!-- Text column -->
             <div class="col-12 col-md-9 mb-4" id="about">
                 <p id="about p">
-                  As a junior software developer, I specialise in crafting
-                  seamless, dynamic user interfaces that prioritize user engagement
-                  and functionality. With a keen interest in web aesthetics and
-                  usability, I've developed a robust skill set in HTML, CSS,
-                  JavaScript, and Bootstrap, ensuring responsive and visually
-                  appealing designs.
+                  As a junior software developer, I'll bring a unique blend of
+                  creativity and technical expertise to your team. My background in
+                  advertising has equipped me with a good nose for a big idea, experience of working 
+                  in a team with designers, UX, strategy and clients. As a copywriter I have garnered a few awards including D&AD, Clios, Campaign and Guardian Innovation Award.
+                  I've added two digital projects from my past life so you can see how I think and work.
+                  If you want to see more of this kind of work visit benwade.portfolio.site, but I am now focused on coding and software development on becoming a 
+                  developer.
+                </p>
+                  
+                  <p>At Code Institute I've developed a working knowledge of HTML, CSS,
+                  JavaScript, Bootstrap, Python and Django. I have used these skills to create my first projects that you can see here.
               </p>
               <p>
-                  My approach combines meticulous attention to detail with a
-                  relentless pursuit of user-centric solutions, making me a reliable
-                  contributor to any web development team.
-              </p>
+                  I am passionate about coding and creating solutions that make a difference.
+                  I enjoy collaborating with others and one day aim to  build engaging, user-friendly websites and applications.
               <p>
-                  I am on the lookout for opportunities to leverage my skills in a
+                  I am on the lookout for opportunities to learn and grow in a
                   dynamic environment, aiming to contribute to meaningful projects
                   and grow as part of a forward-thinking team.
               </p>
@@ -103,6 +127,7 @@
             <!-- my-4 used to add top and bottom margin to heading -->
             <div class="col-12 text-center my-4">
                 <h2 class="display-5">Portfolio</h2>
+                <h5>Click on the links for more info or to experience</h3>
             </div>
 <div class="col-12 col-md-6">
   <div class="card mb-3">
@@ -112,19 +137,19 @@
           <h3 class="card-title">Welcome to the Playground</h3>
           <h4 class="card-subtitle mb-2 text-muted">Role: Copy and Concept</h4>
           <p class="card-text">A FWA site of the day - for the eagerly awaited Canon EOS40D. </p>
-          <a href="#" class="btn btn-outline-secondary">Visit site</a>
+          <a href="https://benwade.portfolio.site/canon" target="_blank" class="btn btn-outline-secondary">Visit site</a>
       </div>
       </div>
   </div>
   <div class="col-12 col-md-6">
     <div class="card mb-3">
         <img src="assets/images/Chartbusters.png" class="card-img-top"
-            alt="An intro screenshot of a music qui website with a retro design">
+            alt="An intro screenshot of a music quiz website with a retro design">
         <div class="card-body">
             <h3 class="card-title">Chartbusters</h3>
             <h4 class="card-subtitle mb-2 text-muted">Role: Concept and Front-end</h4>
             <p class="card-text">A retro music quiz game created in a Hackathon with three Code Institute alumni.</p>
-            <a href="#" class="btn btn-outline-secondary">Visit site</a>
+            <a href="https://jakecrichards.github.io/Chartbusters/" target="_blank" class="btn btn-outline-secondary">Visit site</a>
         </div>
     </div>
   </div>
@@ -136,7 +161,7 @@
               <h3 class="card-title">ToodleDo</h3>
               <h4 class="card-subtitle mb-2 text-muted">Role: Concept and code - task page</h4>
               <p class="card-text">A productivity app created in a Hackathon with three Code Institute alumni.</p>
-              <a href="#" class="btn btn-outline-secondary">Visit site</a>
+              <a href="https://todo-hack-b58aed29fc9d.herokuapp.com" target="_blank" class="btn btn-outline-secondary">Visit site</a>
           </div>
       </div>
       </div>
@@ -148,7 +173,31 @@
                   <h3 class="card-title">Professor Green and the Eco Rangers</h3>
                   <h4 class="card-subtitle mb-2 text-muted">Role: Concept and copy</h4>
                   <p class="card-text">An engaging eco-themed platform game aimed at school children. Part of the school curriculam</p>
-                  <a href="#" class="btn btn-outline-secondary">Visit site</a>
+                  <a href="https://benwade.portfolio.site/digitalsocial" target="_blank" class="btn btn-outline-secondary">Visit site</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card mb-3">
+              <img src="assets/images/Shed.png" class="card-img-top"
+                  alt="A hut on a clifftop with a view of the sea">
+              <div class="card-body">
+                  <h3 class="card-title">Ned's Shed</h3>
+                  <h4 class="card-subtitle mb-2 text-muted">Role: Code and copy</h4>
+                  <p class="card-text">A wellness site and concept for men's mental health</p>
+                  <a href="https://benwade37.github.io/Wellness-Project-Neds-Shed/" target="_blank" class="btn btn-outline-secondary">Visit site</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card mb-3">
+              <img src="assets/images/Gravy.png" class="card-img-top"
+                  alt="A screenshot of a runner covered in gravy">
+              <div class="card-body">
+                  <h3 class="card-title">Gravy Running</h3>
+                  <h4 class="card-subtitle mb-2 text-muted">Role: Lead Front-end and concept</h4>
+                  <p class="card-text">A coding project hacked by the weird world of AI</p>
+                  <a href="https://benwade37.github.io/lovegravyrunning/" target="_blank" class="btn btn-outline-secondary">Visit site</a>
               </div>
             </div>
         </div>
@@ -164,28 +213,20 @@
       </div>
     </div class="col-12 col-md-10 col-lg-8">
     <!-- Add your form here-->
-    <form class="row g-3">
-      <div class="col-md-6 col-lg-6">
-        <label for="full-name" class="form-label">Full Name</label>
-        <input type="text" class="form-control" id="full-name">
-      </div>
-      <div class="col-md-6 col-lg-6">
-        <label for="phonenumber" class="form-label">Phone Number</label>
-        <input type="number" class="form-control" id="phonenumber">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
+    <form action="https://formspree.io/f/xgvyyqyk" method="POST">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
         </div>
-      </div>
-      <div class="col-12">
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
         <button type="submit" class="btn btn-primary">Send</button>
-      </div>
     </form>
   </div>
 </div>

@@ -10,7 +10,7 @@
 @import url('https://fonts.google.com/share?selection.family=Lemonada:wght@300..700|Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Lemonada", sans-serif;
     background-color: #a4c2d1;
 }
 
@@ -29,8 +29,16 @@ h2 {
     line-height: 2.2; /* Optional: Improves readability */
 }
 
+/* Target the image in the About Me section */
+#about img {
+    border-radius: 50%; /* Makes the image circular */
+    width: 150px; /* Optional: Set a fixed width */
+    height: 150px; /* Optional: Set a fixed height to ensure it's a perfect circle */
+    object-fit: cover; /* Ensures the image scales properly within the circle */
+}
+
 #portfolio {
-    background-color:  #dbdcde;
+    background-color:  #5980cf;
 }
 
 #contact {
@@ -44,4 +52,23 @@ background-size: cover;
 background-position: 50% 70%;
 min-height: 500px;
 padding: 5% 7%;
+}
+
+.card {
+    height: 500px; /* Set a fixed height for all cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spaced evenly */
+}
+
+.card-img-top {
+    height: 300px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensures the image scales properly within the fixed height */
+}
+
+.card-body {
+    flex-grow: 1; /* Ensures the body takes up remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out the content */
 }
