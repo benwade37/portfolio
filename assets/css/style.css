@@ -21,13 +21,12 @@ h2 {
 }
 
 #about {
-    background-color: rgb(47, 141, 112);
+    background-color: rgb(66, 47, 141);
 }
 
 #about p {
     font-size: 2.33rem; /* Adjust the size as needed */
     line-height: 2.2; /* Optional: Improves readability */
-    background-color: rgb(47, 141, 112);
 }
 
 /* Target the image in the About Me section */
