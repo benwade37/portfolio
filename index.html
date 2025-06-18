@@ -4,9 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ben Wade | Junior Developer</title>
-    <!-- Bootstrap CSS Link-->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/portfolio-images/css/style.css">
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Ben Wade</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Porfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+        <!-- header -->
+<header id="hero" class="container">
+  <!-- section with hero image -->
+  <section class="row">
+<!-- img-fluid class makes the image responsive to its container -->
+             <!-- Image column -->            
+          <!-- alt text is used for screen readers and if image fails to load -->
+<img src="assets/images/IMG_2395.jpeg" id="about-img" class="img-fluid" alt="Ben Wade portrait photo">
+      <!-- text-center class used to centre all text inside column -->
+      <div class="col-12 text-center">
+          <h1 class="display-4 my-4">Ben Wade</h1>
+          <!-- mb-5 gives extra margin spacing under subheading -->
+          <h2 class="display-6 mb-5">Junior Software Developer</h2>
+          <p>
+              Hello! I'm Ben, a <i>junior Software Developer with experience in the Advertising industry</i>
+              dedicated to building engaging, user-friendly websites and applications.
+              <strong>I believe my experience in advertising will be a useful background for coding.</strong>
+              Eager to collaborate and grow, I'm on the lookout for opportunities to innovate and excel.
+              I enjoy coding and creating solutions that make a difference.
+          </p>
+          <!-- mb-5 gives extra margin spacing under lead text -->
+          <p class="lead mb-5">Junior Developer with advertising creative experience</p>
+            <div class="col-12 text-center my-4">
+                <a href="https://www.linkedin.com/in/benjaminwade" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+      <!-- Button trigger modal -->
+</div>
+</header>
+
+<!-- main content -->
+<main>
+  <!-- About section links to #about href in navbar -->
+  <section id="about" class="container">
+    <div class="row">
+        <div class="col-12 text-center my-4">
+        </div>
+        <div class="row">
+            <!-- Text column -->
+            <div class="text-center">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#aboutContent" aria-expanded="false" aria-controls="aboutContent">
+                  Read More
+              </button>
+          </div>
+          <!-- Collapsible Content -->
+          <div class="collapse mt-3" id="aboutContent">
+              <p>
+                  As a junior software developer, I'll bring a unique blend of
+                  creativity and technical expertise to your team. My background in
+                  advertising has equipped me with a good nose for a big idea, experience of working 
+                  in a team with designers, UX, strategy and clients.
+              </p>
+              <p>
+                  As a copywriter I have garnered a few awards including D&AD, Clios, Campaign and Guardian Innovation Award.
+                  I've added two digital projects from my past life so you can see how I think and work.
+                  If you want to see more of this kind of work visit benwade.portfolio.site, but I am now focused on coding and software development on becoming a developer.
+              </p>
+          </div>
+                </div>
+            </div>
+        </div>
     <style>
         .card {
             height: 400px; /* Set a fixed height for all cards */
@@ -43,53 +131,7 @@
         }
     </style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-sm bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#">Ben Wade</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Porfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-        </div>
-      </nav>
         <!-- header -->
-<header id="hero" class="container">
-  <!-- section with hero image -->
-  <section class="row">
-      <!-- text-center class used to centre all text inside column -->
-      <div class="col-12 text-center">
-          <h1 class="display-4 my-4">Ben Wade</h1>
-          <!-- mb-5 gives extra margin spacing under subheading -->
-          <h2 class="display-6 mb-5">Junior Software Developer</h2>
-          <p>
-              Hello! I'm Ben, a <i>junior Software Developer with experience in the Advertising industry</i>
-              dedicated to building engaging, user-friendly websites and applications.
-              <strong>I believe my experience in advertising will be a useful background for coding.</strong>
-              Eager to collaborate and grow, I'm on the lookout for opportunities to innovate and excel.
-              I enjoy coding and creating solutions that make a difference.
-          </p>
-          <!-- mb-5 gives extra margin spacing under lead text -->
-          <p class="lead mb-5">Junior Developer with advertising creative experience</p>
-      <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary sharp corners" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Visit my LinkedIn profile
-</button>
-</div>
   </section>
 </header>
 
@@ -99,45 +141,10 @@
   <section id="about" class="container">
     <div class="row">
         <!-- my-4 used to add top and bottom margin to heading -->
-        <div class="col-12 text-center my-4">
-            <h2 class="display-5">About Ben</h2>
-        </div>
-        <!-- Row for image and text -->
-        <div class="row">
-            <!-- Image column -->
-            <div class="col-12 col-md-3 mb-4 d-flex justify-content-center">
-                <!-- img-fluid class makes the image responsive to its container -->
-                <img src="assets/images/IMG_2395.jpeg" class="img-fluid" alt="Ben Wade" style="max-width: 100%; height: auto; border-radius: 50%;">
-            </div>
-            <!-- Text column -->
-            <div class="col-12 col-md-9 mb-4" id="about">
-                <p id="about p">
-                  As a junior software developer, I'll bring a unique blend of
-                  creativity and technical expertise to your team. My background in
-                  advertising has equipped me with a good nose for a big idea, experience of working 
-                  in a team with designers, UX, strategy and clients. As a copywriter I have garnered a few awards including D&AD, Clios, Campaign and Guardian Innovation Award.
-                  I've added two digital projects from my past life so you can see how I think and work.
-                  If you want to see more of this kind of work visit benwade.portfolio.site, but I am now focused on coding and software development on becoming a 
-                  developer.
-                </p>
-                  
-                  <p>At Code Institute I've developed a working knowledge of HTML, CSS,
-                  JavaScript, Bootstrap, Python and Django. I have used these skills to create my first projects that you can see here.
-              </p>
-              <p>
-                  I am passionate about coding and creating solutions that make a difference.
-                  I enjoy collaborating with others and one day aim to  build engaging, user-friendly websites and applications.
-              <p>
-                  I am on the lookout for opportunities to learn and grow in a
-                  dynamic environment, aiming to contribute to meaningful projects
-                  and grow as part of a forward-thinking team.
-              </p>
-          </div>
-        </div>
       </section>
 
       <!-- my-4 used to add top and bottom margin to heading -->
-      <section id="portfolio" class="container pb-4">
+<section id="portfolio" class="container pb-4">
         <div class="row">
             <!-- my-4 used to add top and bottom margin to heading -->
             <div class="col-12 text-center my-4">
@@ -216,8 +223,8 @@
               </div>
             </div>
         </div>
-      </div>
-        </section>div>
+    </div>
+        </section>
   </section>
   </main>
   <footer id="contact" class="container">
@@ -246,5 +253,6 @@
   </div>
 </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
