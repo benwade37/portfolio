@@ -25,11 +25,6 @@ p {
     font-family: "Noto Sans", sans-serif; /* Apply Noto Sans to paragraphs */
 }
 
-#about {
-    background-color: rgb(74, 149, 37);
-    text-align: center; /* Centers all text inside the #about section */
-}
-
 #about h2 {
     color: white; /* Sets the title color to white */
 }
@@ -41,6 +36,12 @@ p {
     text-align: center; /* Ensures paragraphs are centered */
 }
 
+#aboutcontent {
+    background-color: #9785cb;
+    max-width: 800px; /* Optional: Limits the width of the content */
+    margin: 0 auto; /* Centers the content horizontally */
+    padding: 20px; /* Adds padding around the content */
+}
 /* Target the image in the About Me section */
 #about img {
     border-radius: 50%; /* Makes the image circular */
@@ -84,7 +85,7 @@ p {
 }
 
 #portfolio {
-    background-color:  #5980cf;
+    background-color:  #41d540;
 }
 
 #contact {
@@ -93,12 +94,12 @@ p {
 }
 
 #hero { 
-background-color: aliceblue;
+background-color: #f0fe70;
 background-image: "https://unsplash.com/illustrations/interior-of-the-living-room-with-furniture-flat-cartoon-style-vector-illustration-HT0lorlhGSA";
 background-size: cover;
 background-position: 50% 70%;
 min-height: 500px;
-padding: 5% 7%;
+padding: 2% 1%;
 }
 
 .card {
