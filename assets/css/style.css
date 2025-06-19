@@ -30,6 +30,7 @@ p {
 }
 
 #about p {
+    background-color: #805fe1;
     color: white;
     font-size: 1.33rem; /* Adjust the size as needed */
     line-height: 2.2; /* Optional: Improves readability */
@@ -37,7 +38,7 @@ p {
 }
 
 #aboutcontent {
-    background-color: #9785cb;
+    background-color: #805fe1;
     max-width: 800px; /* Optional: Limits the width of the content */
     margin: 0 auto; /* Centers the content horizontally */
     padding: 20px; /* Adds padding around the content */
@@ -85,7 +86,7 @@ p {
 }
 
 #portfolio {
-    background-color:  #41d540;
+    background-color: #a4c2d1;
 }
 
 #contact {
@@ -119,4 +120,26 @@ padding: 2% 1%;
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Space out the content */
+}
+
+#contact-form-container {
+    margin-bottom: 50px; /* Adjust the value as needed */
+}
+
+#contact {
+    background-color: white;
+    margin-bottom: 50px; /* Adds space below the contact section */
+    padding-bottom: 50px; /* Adds internal spacing at the bottom */
+}
+
+.btn-outline-secondary {
+    background-color: #43d343; /* Sets the background color */
+    color: white; /* Sets the text color */
+    border-color: #43d343; /* Matches the border color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adds hover effect */
+}
+
+.btn-outline-secondary:hover {
+    background-color: white; /* Changes background color on hover */
+    color: #43d343; /* Changes text color on hover */
 }
