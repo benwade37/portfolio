@@ -1,4 +1,4 @@
 # portfolio
 A site showcasing and combining my creative work and recent coding projects.
 
-Live link: http://127.0.0.1:5500/
+Live link: https://benwade37.github.io/portfolio/
