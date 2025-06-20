@@ -44,20 +44,12 @@ p {
     padding: 20px; /* Adds padding around the content */
 }
 /* Target the image in the About Me section */
-#about img {
-    border-radius: 50%; /* Makes the image circular */
-    width: 150px; /* Optional: Set a fixed width */
-    height: 150px; /* Optional: Set a fixed height to ensure it's a perfect circle */
-    object-fit: cover; /* Ensures the image scales properly within the circle */
-    display: block; /* Ensures the image behaves like a block element */
-    margin: 0 auto; /* Centers the image horizontally */
-}
 
 #about-img {
-    border-radius: 50%; /* Makes the image circular */
-    width: 250px; /* Optional: Set a fixed width */
-    height: 250px; /* Optional: Set a fixed height to ensure it's a perfect circle */
-    object-fit: cover; /* Ensures the image scales properly within the circle */
+    border-radius: 50%; /* Ensures the border follows the circular shape */
+    width: 250px; /* Sets the width of the image */
+    height: 250px; /* Sets the height of the image */
+    object-fit: cover; /* Ensures the image content scales properly to fill the circular frame */
     display: block; /* Ensures the image behaves like a block element */
     margin: 0 auto; /* Centers the image horizontally */
 }
@@ -141,5 +133,5 @@ padding: 2% 1%;
 
 .btn-outline-secondary:hover {
     background-color: white; /* Changes background color on hover */
-    color: #43d343; /* Changes text color on hover */
+    color: #805fe1; /* Changes text color on hover */
 }
