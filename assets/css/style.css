@@ -45,20 +45,22 @@ p {
 }
 /* Target the image in the About Me section */
 
-#about-img {
-    border-radius: 50%; /* Ensures the border follows the circular shape */
-    width: 250px; /* Sets the width of the image */
-    height: 250px; /* Sets the height of the image */
-    object-fit: cover; /* Ensures the image content scales properly to fill the circular frame */
-    display: block; /* Ensures the image behaves like a block element */
-    margin: 0 auto; /* Centers the image horizontally */
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #805fe1;
+    overflow: hidden; /* 🔑 This is the magic */
+    box-sizing: border-box;
+    margin: 30px auto; /* Centers the circle and adds vertical spacing */
 }
 
-#about-img-container {
-    display: flex; /* Enables Flexbox */
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center; /* Centers the image vertically */
-    height: 100%; /* Optional: Set a height for the container */
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: center;
 }
 
 #about .btn-primary {
