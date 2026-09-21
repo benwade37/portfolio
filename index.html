@@ -1,302 +1,684 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ben Wade | Junior Developer</title>
-    <!-- Bootstrap CSS Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts Link -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="The portfolio of Ben Wade, a creative developer combining award-winning advertising experience with full-stack development."
+  >
+
+  <title>Ben Wade | Creative Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#">Ben Wade</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Porfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-        </div>
-      </nav>
-        <!-- header -->
-<header id="hero" class="container">
-  <!-- section with hero image -->
-  <section class="row">
-<!-- img-fluid class makes the image responsive to its container -->
-             <!-- Image column -->            
-          <!-- alt text is used for screen readers and if image fails to load -->
-<div id="about-img-container">
-  <div class="circle">
-          <img src="assets/images/BenWaa.png" alt="Ben Wade portrait photo">
-  </div>
-</div>
-      <!-- text-center class used to centre all text inside column -->
-      <div class="col-12 text-center">
-          <h1 class="display-4 my-4">Ben Wade</h1>
-          <!-- mb-5 gives extra margin spacing under subheading -->
-          <h2 class="display-6 mb-5">Junior Software Developer</h2>
-          <p>
-              Hello! I'm Ben, a <i>junior Software Developer with experience in the Advertising industry</i>
-              dedicated to building engaging, user-friendly websites and applications.
-              I believe my experience in advertising will be a useful background for coding.
-              Eager to collaborate and grow, I'm on the lookout for opportunities to innovate and excel.
-              I enjoy coding and creating solutions that make a difference.
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <nav
+    class="navbar navbar-expand-md fixed-top"
+    aria-label="Main navigation"
+  >
+    <div class="container">
+      <a
+        class="navbar-brand"
+        href="#top"
+        aria-label="Ben Wade, home"
+      >
+        BW<span>.</span>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNav"
+        aria-controls="mainNav"
+        aria-expanded="false"
+        aria-label="Open navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-md-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link nav-contact" href="#contact">
+              Let's talk
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="top" class="hero">
+    <div class="container hero-inner">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-8">
+          <p class="eyebrow reveal">
+            Creative developer · Cornwall, UK
           </p>
-          <!-- mb-5 gives extra margin spacing under lead text -->
-          <p class="lead mb-5">Junior Developer with advertising creative experience</p>
-            <div class="d-flex justify-content-center align-items-center">
-                <a href="https://www.linkedin.com/in/benjaminwade" target="_blank" rel="noopener" class="btn btn-primary me-3">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#aboutContent" aria-expanded="false" aria-controls="aboutContent">
-                    Read More
-                </button>
-            </div>
-      <!-- Button trigger modal -->
-</div>
-</header>
 
-<!-- main content -->
-<main>
-  <!-- About section links to #about href in navbar -->
-  <section id="about" class="container">
-    <div class="row">
-        <div class="col-12 text-center my-4">
-        </div>
-        <div class="row">
-            <!-- Text column -->
-          <!-- Collapsible Content -->
-          <div class="collapse mt-3" id="aboutContent">
-              <p>
-                  As a junior software developer, I'll bring a unique blend of
-                  creativity and technical expertise to your team. My background in
-                  advertising has equipped me with a good nose for a big idea, experience of working 
-                  in a team with designers, UX, strategy, problem solving and presenting to clients.
-              </p>
-              <p>
-                  As a copywriter I have garnered a few awards including D&AD, Clios, Campaign and Guardian Innovation Award.
-                  I've added two digital projects from my past life so you can see how I think and work.
-                  If you want to see more of this kind of work visit benwade.portfolio.site, but I am now focused on coding and software development because I love it.
-              </p>
-              <p>
-                  I am a graduate of the Code Institute's Diploma in Full Stack Software Development, where I honed my skills in HTML, CSS, JavaScript, Python, and SQL.
-                  I am passionate about creating user-friendly applications and websites that solve real-world problems.
-                  I am eager to collaborate with like-minded individuals and contribute to innovative projects.
-              </p>
+          <h1 class="reveal reveal-delay-1">
+            Ideas, words and code—<span>built for people.</span>
+          </h1>
+
+          <p class="hero-copy reveal reveal-delay-2">
+            I'm Ben, a full-stack development graduate with an
+            award-winning creative background. I turn good ideas
+            into useful, engaging digital experiences.
+          </p>
+
+          <div class="hero-actions reveal reveal-delay-3">
+            <a class="button button-primary" href="#work">
+              Explore my work
+              <span aria-hidden="true">↘</span>
+            </a>
+
+            <a
+              class="text-link"
+              href="https://www.linkedin.com/in/benjaminwade"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
+        </div>
+
+        <div
+          class="col-lg-4 d-none d-lg-block"
+          aria-hidden="true"
+        >
+          <div class="hero-mark">
+            <span>Think</span>
+            <span>Make</span>
+            <span>Improve</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-footer">
+        <span>
+          HTML · CSS · JavaScript · React · Python · Django
+        </span>
+
+        <a href="#work" aria-label="Scroll to selected work">
+          Scroll to work ↓
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="work" class="section work-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects with purpose.</h2>
+          </div>
+
+          <p>
+            A mix of independent builds, collaborative hackathons
+            and creative digital work.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <!-- Shlep Smasher -->
+          <article class="project-card project-card-featured">
+            <a
+              class="project-image"
+              href="https://benwade37.github.io/southwestpathplanner/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit SWCP guide"
+            >
+              <img
+                src="assets/images/PadPorth.png"
+                alt="South West Coast Path cliffs and turquoise sea"
+              >
+
+              <span class="project-number">01</span>
+            </a>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span>React</span>
+                <span>UX</span>
+                <span>Geolocation</span>
+              </div>
+
+              <h3>SWCP guide</h3>
+
+              <p>
+                A route and progress tracker for walkers taking on
+                the South West Coast Path, with interactive maps,
+                live location and journey status. This is WIP. Send me a message to view (the link will not work until the project is published).
+              </p>
+
+              <a
+                class="project-link"
+                href="https://benwade37.github.io/portfolio/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View project
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- MenuK9 -->
+          <article class="project-card">
+            <a
+              class="project-image"
+              href="https://menuk9-d1fa42538dda.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit MenuK9"
+            >
+              <img
+                src="assets/images/Dog2.jpg"
+                alt="Dog looking towards a Who's a good doggie message"
+                loading="lazy"
+              >
+
+              <span class="project-number">02</span>
+            </a>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span>Django</span>
+                <span>Python</span>
+                <span>Full stack</span>
+              </div>
+
+              <h3>MenuK9</h3>
+
+              <p>
+                A full-stack recipe community helping dog owners
+                make informed choices about healthy food for
+                happier pets.
+              </p>
+
+              <a
+                class="project-link"
+                href="https://menuk9-d1fa42538dda.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View project
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Chartbusters -->
+          <article class="project-card">
+            <a
+              class="project-image"
+              href="https://benwade37.github.io/Chartbusters2/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Play Chartbusters"
+            >
+              <img
+                src="assets/images/Chartbusters.png"
+                alt="Colourful retro Chartbusters music quiz screen"
+                loading="lazy"
+              >
+
+              <span class="project-number">03</span>
+            </a>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span>JavaScript</span>
+                <span>Game design</span>
+                <span>Hackathon</span>
+              </div>
+
+              <h3>Chartbusters</h3>
+
+              <p>
+                A fast, nostalgic chart-positions game created
+                collaboratively during a Code Institute hackathon.
+              </p>
+
+              <a
+                class="project-link"
+                href="https://benwade37.github.io/Chartbusters2/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Play the game
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Clickawadey -->
+          <article class="project-card">
+            <a
+              class="project-image"
+              href="https://www.clickawadey.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Clickawadey"
+            >
+              <img
+                src="assets/images/Clickawadey.png"
+                alt="Clickawadey searchable creative portfolio"
+                loading="lazy"
+              >
+
+              <span class="project-number">04</span>
+            </a>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span>Python</span>
+                <span>Django</span>
+                <span>Search</span>
+              </div>
+
+              <h3>Clickawadey</h3>
+
+              <p>
+                A searchable portfolio designed to help recruiters
+                quickly find relevant creative work by brand,
+                sector and discipline.
+              </p>
+
+              <a
+                class="project-link"
+                href="https://www.clickawadey.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View project
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="more-work">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow">More experiments</p>
+              <h2>Making, learning, collaborating.</h2>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- ToodleDo -->
+            <div class="col-md-6 col-lg-4">
+              <article class="mini-card">
+                <img
+                  src="assets/images/Toodledo.png"
+                  alt="ToodleDo productivity app"
+                  loading="lazy"
+                >
+
+                <div>
+                  <span>Hackathon · Front end</span>
+                  <h3>ToodleDo</h3>
+
+                  <p>
+                    A collaborative productivity app with a
+                    focused task experience.
+                  </p>
+
+                  <a
+                    href="https://todo-hack-b58aed29fc9d.herokuapp.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit site ↗
+                  </a>
                 </div>
+              </article>
             </div>
-        </div>
-    <style>
 
-        .card-img-top {
-            height: 300px; /* Set a fixed height for the image */
-            object-fit: cover; /* Ensures the image scales properly within the fixed height */
-        }
+            <!-- Ned's Shed -->
+            <div class="col-md-6 col-lg-4">
+              <article class="mini-card">
+                <img
+                  src="assets/images/Shed.png"
+                  alt="Ned's Shed wellness website on a clifftop"
+                  loading="lazy"
+                >
 
-        .card-body {
-            flex-grow: 1; /* Ensures the body takes up remaining space */
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between; /* Space out the content */
-        }
+                <div>
+                  <span>Concept · Front end</span>
+                  <h3>Ned's Shed</h3>
 
-        #contact-form-container {
-            margin-bottom: 50px; /* Adjust the value as needed */
-        }
+                  <p>
+                    A welcoming digital concept supporting men's
+                    mental health.
+                  </p>
 
-        #contact {
-            background-color: white;
-            margin-bottom: 50px; /* Adds space below the contact section */
-            padding-bottom: 50px; /* Adds internal spacing at the bottom */
-        }
-
-    </style>
-</head>
-        <!-- header -->
-  </section>
-</header>
-
-<!-- main content -->
-<main>
-  <!-- About section links to #about href in navbar -->
-  <section id="about" class="container">
-    <div class="row">
-        <!-- my-4 used to add top and bottom margin to heading -->
-      </section>
-
-      <!-- my-4 used to add top and bottom margin to heading -->
-<section id="portfolio" class="container pb-4">
-        <div class="row">
-            <!-- my-4 used to add top and bottom margin to heading -->
-        <div class="col-12 text-center my-4">
-        <h2 class="display-5">Portfolio</h2>
-        </div>
-<div class="col-12 col-md-6">
-  <div class="card mb-3">
-      <img src="assets/images/PadPorth.png" class="card-img-top"
-          alt="A beautiful coastal view">
-      <div class="card-body">
-          <h3 class="card-title">SWCP Tracking app WIP</h3>
-          <h4 class="card-subtitle mb-2 text-muted">Role: Concept and Front-end: ReactJS</h4>
-          <p class="card-text">A useful tool for keen hikers - built in ReactJS. Please contact me to view. </p>
-          <a href="https://benwade37.github.io/southwest/" target="_blank" rel="noopener" class="btn btn-outline-secondary">Visit site</a>
-      </div>
-      </div>
-  </div>
-  <div class="col-12 col-md-6">
-    <div class="card mb-3">
-        <img src="assets/images/Chartbusters.png" class="card-img-top"
-            alt="An intro screenshot of a music quiz website with a retro design">
-        <div class="card-body">
-            <h3 class="card-title">Chartbusters</h3>
-            <h4 class="card-subtitle mb-2 text-muted">Role: Concept and Front-end</h4>
-            <p class="card-text">A retro music quiz game created in a Hackathon with three Code Instituters.</p>
-            <a href="https://benwade37.github.io/Chartbusters2/" target="_blank" rel="noopener" class="btn btn-outline-secondary">Visit site</a>
-        </div>
-    </div>
-  </div>
-    <div class="col-12 col-md-6">
-      <div class="card mb-3">
-          <img src="assets/images/Toodledo.png" class="card-img-top"
-              alt="A screenshot of a productivity app with a clean and modern design">
-          <div class="card-body">
-              <h3 class="card-title">ToodleDo</h3>
-              <h4 class="card-subtitle mb-2 text-muted">Role: Concept and code - task page</h4>
-              <p class="card-text">A productivity app created in a Hackathon with three Code Institute alumni.</p>
-              <a href="https://todo-hack-b58aed29fc9d.herokuapp.com" target="_blank" rel="noopener" class="btn btn-outline-secondary">Visit site</a>
-          </div>
-      </div>
-      </div>
-        <div class="col-12 col-md-6">
-          <div class="card mb-3">
-              <img src="assets/images/Progreen1.jpg" class="card-img-top"
-                  alt="A screenshot of eco-themed platform game">
-              <div class="card-body">
-                  <h3 class="card-title">Professor Green and the Eco Rangers</h3>
-                  <h4 class="card-subtitle mb-2 text-muted">Role: Concept and copy</h4>
-                  <p class="card-text">An engaging eco-themed platform game for kids. In the school curriculam</p>
-                  <a href="https://www.clickawadey.com/project/34/" target="_blank" rel="noopener" class="btn btn-outline-secondary">Visit site</a>
-              </div>
+                  <a
+                    href="https://benwade37.github.io/Wellness-Project-Neds-Shed/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit site ↗
+                  </a>
+                </div>
+              </article>
             </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="card mb-3">
-              <img src="assets/images/Shed.png" class="card-img-top"
-                  alt="A hut on a clifftop with a view of the sea">
-              <div class="card-body">
-                  <h3 class="card-title">Ned's Shed</h3>
-                  <h4 class="card-subtitle mb-2 text-muted">Role: Front-end and concept</h4>
-                  <p class="card-text">A wellness site and concept for men's mental health</p>
-                  <a href="https://benwade37.github.io/Wellness-Project-Neds-Shed/" target="_blank" rel="noopener" class="btn btn-outline-secondary">Visit site</a>
-              </div>
+
+            <!-- Gravy Running -->
+            <div class="col-md-6 col-lg-4">
+              <article class="mini-card">
+                <img
+                  src="assets/images/Gravy.png"
+                  alt="Gravy Running website featuring a runner"
+                  loading="lazy"
+                >
+
+                <div>
+                  <span>AI experiment · Front end</span>
+                  <h3>Gravy Running</h3>
+
+                  <p>
+                    A playful running project hacked together with
+                    the weird world of AI.
+                  </p>
+
+                  <a
+                    href="https://benwade37.github.io/lovegravyrunning/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit site ↗
+                  </a>
+                </div>
+              </article>
             </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="card mb-3">
-              <img src="assets/images/Gravy.png" class="card-img-top"
-                  alt="A screenshot of a runner covered in gravy">
-              <div class="card-body">
-                  <h3 class="card-title">Gravy Running</h3>
-                  <h4 class="card-subtitle mb-2 text-muted">Role: All Front-end and concept</h4>
-                  <p class="card-text">A coding project hacked by the weird world of AI</p>
-                  <a href="https://benwade37.github.io/lovegravyrunning/" target="_blank" rel="noopener" class="btn btn-outline-secondary">Visit site</a>
-              </div>
+
+            <!-- Professor Green -->
+            <div class="col-md-6 col-lg-4">
+              <article class="mini-card">
+                <img
+                  src="assets/images/Progreen1.jpg"
+                  alt="Professor Green and the Eco Rangers game"
+                  loading="lazy"
+                >
+
+                <div>
+                  <span>Concept · Copy</span>
+                  <h3>Professor Green</h3>
+
+                  <p>
+                    An eco-themed platform game that made
+                    sustainability engaging for schoolchildren.
+                  </p>
+
+                  <a
+                    href="https://www.clickawadey.com/project/34/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    See the work ↗
+                  </a>
+                </div>
+              </article>
             </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="card mb-3">
-              <img src="assets/images/Peoplelikeus.png" class="card-img-top"
-                  alt="A trendy young presenter">
-              <div class="card-body">
-                  <h3 class="card-title">People Like Us</h3>
-                  <h4 class="card-subtitle mb-2 text-muted">Role: Concept and content</h4>
-                  <p class="card-text">A website to promote STEM careers</p>
-                  <a href="https://www.clickawadey.com/project/39/" target="_blank" rel="noopener" class="btn btn-outline-secondary">Visit site</a>
-              </div>
+
+            <!-- People Like Us -->
+            <div class="col-md-6 col-lg-4">
+              <article class="mini-card">
+                <img
+                  src="assets/images/Peoplelikeus.png"
+                  alt="People Like Us STEM careers website"
+                  loading="lazy"
+                >
+
+                <div>
+                  <span>Concept · Content</span>
+                  <h3>People Like Us</h3>
+
+                  <p>
+                    A digital campaign encouraging young people
+                    to explore careers in STEM.
+                  </p>
+
+                  <a
+                    href="https://www.clickawadey.com/project/39/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    See the work ↗
+                  </a>
+                </div>
+              </article>
             </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="card mb-3">
-              <img src="assets/images/Dog2.jpg" class="card-img-top"
-                  alt="A screenshot of a dog with a speech bubble saying 'Who's a good doggie?'">
-              <div class="card-body">
-                  <h3 class="card-title">#Whosagooddoggie</h3>
-                  <h4 class="card-subtitle mb-2 text-muted">Role: All Fullstack Development, and concept</h4>
-                  <p class="card-text">A website promoting healthy diets for happy dogs</p>
-                  <a href="https://menuk9-d1fa42538dda.herokuapp.com/" target="_blank" rel="noopener" class="btn btn-outline-secondary">Visit site</a>
-              </div>
+
+            <!-- Boardwalk Games -->
+            <div class="col-md-6 col-lg-4">
+              <article class="mini-card">
+                <img
+                  src="assets/images/Boardwalk.png"
+                  alt="Boardwalk Games venue website"
+                  loading="lazy"
+                >
+
+                <div>
+                  <span>HTML · CSS · Bootstrap</span>
+                  <h3>Boardwalk Games</h3>
+
+                  <p>
+                    A responsive venue website developed while
+                    mastering front-end foundations.
+                  </p>
+
+                  <a
+                    href="https://benwade37.github.io/Boardwalk-Games-Master/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit site ↗
+                  </a>
+                </div>
+              </article>
             </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="card mb-3">
-              <img src="assets/images/Clickawadey.png" class="card-img-top"
-                  alt="A screenshot of a portfolio homepage">
-              <div class="card-body">
-                  <h3 class="card-title">Clickawadey</h3>
-                  <h4 class="card-subtitle mb-2 text-muted">Role: All Fullstack Development, and concept</h4>
-                  <p class="card-text">A python based portfolio with easy search functions for freelance recruitmnent </p>
-                  <a href="https://www.clickawadey.com/" target="_blank" rel="noopener" class="btn btn-outline-secondary">Visit site</a>
-              </div>
-            </div>
-    </div>
-    <div class="col-12 col-md-6">
-      <div class="card mb-3">
-          <img src="assets/images/Boardwalk.png" class="card-img-top"
-              alt="A screenshot a website for a board game venue">
-          <div class="card-body">
-              <h3 class="card-title">Boardwalk Games</h3>
-              <h4 class="card-subtitle mb-2 text-muted">Role: Frontend development from CI Tutorial</h4>
-              <p class="card-text">A website for fictional board game venue</p>
-              <a href="https://benwade37.github.io/Boardwalk-Games-Master/" target="_blank" rel="noopener" class="btn btn-outline-secondary">Visit site</a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <div class="portrait-wrap">
+              <img
+                src="assets/images/BenWaa.png"
+                alt="Portrait of Ben Wade"
+                loading="lazy"
+              >
+
+              <span class="portrait-label">
+                Open to opportunities
+              </span>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <p class="eyebrow">A little about me</p>
+
+            <h2>
+              Creative instincts.<br>
+              Technical curiosity.
+            </h2>
+
+            <p class="about-lead">
+              I spent my first career finding fresh ways to
+              connect brands with people. Now I apply that same
+              curiosity to software.
+            </p>
+
+            <div class="about-columns">
+              <p>
+                My advertising career took me from global agencies
+                to in-house teams, working with designers,
+                strategists and UX specialists on brands including
+                Ford, Jaguar, Canon and The Guardian.
+              </p>
+
+              <p>
+                After completing Code Institute's Diploma in Full
+                Stack Software Development, I now build with HTML,
+                CSS, JavaScript, React, Python, Django and SQL—always
+                with the person using it in mind.
+              </p>
+            </div>
+
+            <div class="credentials">
+              <div>
+                <strong>Code Institute</strong>
+                <span>Full Stack Diploma</span>
+              </div>
+
+              <div>
+                <strong>D&amp;AD · Clios</strong>
+                <span>Award-winning creative</span>
+              </div>
+
+              <div>
+                <strong>Cornwall</strong>
+                <span>Based in the South West</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="row g-5">
+            <div class="col-lg-5">
+              <p class="eyebrow">Get in touch</p>
+
+              <h2>Have a project, role or good idea?</h2>
+
+              <p>
+                I'm always happy to talk about interesting work,
+                junior development opportunities or creative
+                collaborations.
+              </p>
+
+              <a
+                class="text-link light"
+                href="https://www.linkedin.com/in/benjaminwade"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Connect on LinkedIn ↗
+              </a>
+            </div>
+
+            <div class="col-lg-7">
+              <form
+                action="https://formspree.io/f/xgvyyqyk"
+                method="POST"
+              >
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <label for="name">Name</label>
+
+                    <input
+                      id="name"
+                      name="name"
+                      type="text"
+                      autocomplete="name"
+                      required
+                    >
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email">Email</label>
+
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      autocomplete="email"
+                      required
+                    >
+                  </div>
+
+                  <div class="col-12">
+                    <label for="message">Message</label>
+
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="4"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="col-12">
+                    <button
+                      class="button button-light"
+                      type="submit"
+                    >
+                      Send message
+                      <span aria-hidden="true">→</span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer id="contact" class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center my-4">
-        <h2 class="display-5">Contact</h2>
-        <p class="mt-4"><p>Got questions or ideas? I'm always up for feedback. From comments to collaboration</p>
-      </div>
-    </div class="col-12 col-md-10 col-lg-8">
-    <!-- Add your form here-->
-    <form action="https://formspree.io/f/xgvyyqyk" method="POST">
-        <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" name="name" required>
-        </div>
-        <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-        </div>
-        <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Send</button>
-    </form>
-  </div>
-</div>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2026 Ben Wade</p>
+      <p>Designed with ideas. Built with code.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
