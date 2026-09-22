@@ -141,3 +141,16 @@ footer { padding: 2rem 0; color: #b8c1bd; background: var(--ink); }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Remove the decorative outline circle */
+.hero::after {
+    display: none;
+}
+
+/* Give the hero headline more natural spacing in Safari */
+.hero h1 {
+    letter-spacing: -0.025em;
+    font-kerning: normal;
+    font-feature-settings: "kern" 1, "liga" 1;
+    text-rendering: optimizeLegibility;
+}
